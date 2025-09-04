@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TasteHub Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      color: #333;
+    }
+    header {
+      background: #c0392b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #e74c3c;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+      font-size: 3em;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .menu-item {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+    .menu-item img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background: #c0392b;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🍴 TasteHub Restaurant</h1>
+    <p>Delicious food, unforgettable taste!</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Welcome to TasteHub
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At TasteHub, we bring you the best flavors from around the world. Fresh ingredients, authentic recipes, and love in every bite.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1600891965059-74d3a3e2f5a7" alt="Pizza">
+        <h3>Italian Pizza</h3>
+        <p>Cheesy and delicious, baked to perfection.</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1553621042-f6e147245754" alt="Pasta">
+        <h3>Classic Pasta</h3>
+        <p>Rich, creamy sauces with homemade pasta.</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb36" alt="Burger">
+        <h3>Juicy Burgers</h3>
+        <p>Grilled patties with fresh toppings.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 123 Food Street, Hyderabad</p>
+    <p>📞 +91 98765 43210</p>
+    <p>📧 hello@tastehub.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 TasteHub Restaurant | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
+
