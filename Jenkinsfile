@@ -30,7 +30,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'docker run -itd --name webserver -p 3000:80 nani4027/httpd:v4'
+                sh 'docker run -itd --name Application -p 8000:80 nani4027/httpd:v4'
             }
         }
     }
